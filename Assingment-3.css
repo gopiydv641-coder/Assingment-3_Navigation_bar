@@ -1,0 +1,83 @@
+body {
+    color: aquamarine;
+    background-color: rgb(80, 195, 230);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+    text-decoration: none;
+
+}
+
+.navapp {
+    text-align: center;
+    background-color: #3c55b7;
+    padding: 1rem;
+    color: white;
+}
+
+.navbar .logo {
+    text-decoration: none;
+}
+
+.navbar .logo h1 {
+    color: white;
+    margin: 0;
+    text-decoration: none;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    text-decoration: none;
+
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+.IBM-Tools {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.IBM-Tools button {
+    padding: 0.5rem 1rem;
+    background-color: #3c55b7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.IBM-Tools button a {
+    color: white;
+    text-decoration: none;
+}
+
+.Paragraph {
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+    background-color: #52ade5;
+    border-radius: 5px;
+    margin: 1rem auto;
+    max-width: 400px;
+
+}
